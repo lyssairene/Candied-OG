@@ -16,6 +16,9 @@
 		4865387F2AD1D77F006A3CA7 /* Candied_OGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865387E2AD1D77F006A3CA7 /* Candied_OGTests.swift */; };
 		486538892AD1D77F006A3CA7 /* Candied_OGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486538882AD1D77F006A3CA7 /* Candied_OGUITests.swift */; };
 		4865388B2AD1D77F006A3CA7 /* Candied_OGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865388A2AD1D77F006A3CA7 /* Candied_OGUITestsLaunchTests.swift */; };
+		4865389A2AD1D9C4006A3CA7 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486538992AD1D9C4006A3CA7 /* Firebase.swift */; };
+		4865389C2AD1D9F6006A3CA7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865389B2AD1D9F6006A3CA7 /* DataManager.swift */; };
+		4865389E2AD1DA25006A3CA7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865389D2AD1DA25006A3CA7 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		486538842AD1D77F006A3CA7 /* Candied OGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Candied OGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486538882AD1D77F006A3CA7 /* Candied_OGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candied_OGUITests.swift; sourceTree = "<group>"; };
 		4865388A2AD1D77F006A3CA7 /* Candied_OGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candied_OGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		486538992AD1D9C4006A3CA7 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		4865389B2AD1D9F6006A3CA7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4865389D2AD1DA25006A3CA7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				486538672AD1D77D006A3CA7 /* AppDelegate.swift */,
 				486538692AD1D77D006A3CA7 /* SceneDelegate.swift */,
 				4865386B2AD1D77D006A3CA7 /* ViewController.swift */,
+				486538992AD1D9C4006A3CA7 /* Firebase.swift */,
+				4865389B2AD1D9F6006A3CA7 /* DataManager.swift */,
+				4865389D2AD1DA25006A3CA7 /* ListView.swift */,
 				4865386D2AD1D77D006A3CA7 /* Main.storyboard */,
 				486538702AD1D77E006A3CA7 /* Assets.xcassets */,
 				486538722AD1D77E006A3CA7 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4865386C2AD1D77D006A3CA7 /* ViewController.swift in Sources */,
+				4865389C2AD1D9F6006A3CA7 /* DataManager.swift in Sources */,
+				4865389E2AD1DA25006A3CA7 /* ListView.swift in Sources */,
 				486538682AD1D77D006A3CA7 /* AppDelegate.swift in Sources */,
+				4865389A2AD1D9C4006A3CA7 /* Firebase.swift in Sources */,
 				4865386A2AD1D77D006A3CA7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
