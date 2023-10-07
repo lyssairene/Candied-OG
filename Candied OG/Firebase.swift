@@ -6,19 +6,27 @@
 //
 
 import SwiftUI
-import Firebase
+import FirebaseCore
 
-struct CandiedPOS: App {
-    @StateObject var dataManager = DataManager()
-    
-    init() {
-        FirebaseApp.configure()
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+    return true
+  }
+}
+
+@main
+struct Candied : App {
+  // register app delegate for Firebase setup
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        ViewController()
+      }
     }
-    var body: some Scene {
-        WindowGroup{
-            ViewController()
-                .environmentObject(dataManager)
-        }
-    }
+  }
 }
 
