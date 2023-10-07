@@ -5,7 +5,9 @@
 //  Created by Alyssa Pollard on 10/7/23.
 
 import SwiftUI
-//import Firebase
+import Firebase
+import FirebaseAuth
+
 
 struct ViewController: View {
     @State private var email = ""
