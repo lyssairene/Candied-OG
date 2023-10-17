@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48588C6E2ADF07CE00A69A5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48588C6D2ADF07CE00A69A5C /* FirebaseAuth */; };
 		486538682AD1D77D006A3CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486538672AD1D77D006A3CA7 /* AppDelegate.swift */; };
 		4865386A2AD1D77D006A3CA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486538692AD1D77D006A3CA7 /* SceneDelegate.swift */; };
 		4865386C2AD1D77D006A3CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865386B2AD1D77D006A3CA7 /* ViewController.swift */; };
@@ -82,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				486538A92AD1E281006A3CA7 /* FirebaseAnalyticsSwift in Frameworks */,
+				48588C6E2ADF07CE00A69A5C /* FirebaseAuth in Frameworks */,
 				486538A52AD1E281006A3CA7 /* FirebaseAnalytics in Frameworks */,
 				486538A72AD1E281006A3CA7 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				486538AD2AD1E281006A3CA7 /* FirebaseAppCheck in Frameworks */,
@@ -116,6 +118,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48588C6C2ADF07CE00A69A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4865385B2AD1D77D006A3CA7 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +132,7 @@
 				4865387D2AD1D77F006A3CA7 /* Candied OGTests */,
 				486538872AD1D77F006A3CA7 /* Candied OGUITests */,
 				486538652AD1D77D006A3CA7 /* Products */,
+				48588C6C2ADF07CE00A69A5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +203,7 @@
 				486538A82AD1E281006A3CA7 /* FirebaseAnalyticsSwift */,
 				486538AA2AD1E281006A3CA7 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				486538AC2AD1E281006A3CA7 /* FirebaseAppCheck */,
+				48588C6D2ADF07CE00A69A5C /* FirebaseAuth */,
 			);
 			productName = "Candied OG";
 			productReference = 486538642AD1D77D006A3CA7 /* Candied OG.app */;
@@ -694,6 +705,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		48588C6D2ADF07CE00A69A5C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4865389F2AD1E0C9006A3CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		486538A42AD1E281006A3CA7 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4865389F2AD1E0C9006A3CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
