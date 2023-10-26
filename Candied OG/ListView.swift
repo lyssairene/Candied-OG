@@ -12,8 +12,8 @@ struct ListView: View {
     
     var body: some View {
         NavigationView {
-            List(DataManager.candies, id: \.id){ candies in
-                Text(candies.type)
+            //List(DataManager.candies, id: \.id){ candies in
+                //Text(candies.type)
                 
             }
             .navigationTitle("Candies")
@@ -24,7 +24,7 @@ struct ListView: View {
             }))
         }
     }
-}
+//}
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
