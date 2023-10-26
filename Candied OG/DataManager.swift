@@ -7,15 +7,18 @@
 
 import SwiftUI
 import Firebase
+import FirebaseFirestore
 
-struct candies {
+
+
+struct Candy {
     var id: String
     var type: String
     var pound: Int
 }
 
 class DataManager: ObservableObject {
-    @Published var Candies: [candies] = []
+    @Published var Candies: [Candy] = []
     
     init() {
        getCandies()
@@ -40,7 +43,7 @@ class DataManager: ObservableObject {
                     let pound = data["pound"] as? Int ?? 0
                     
                     // Create a Candies object and append it to the candies array
-                    let candy = candies(id: id, type: type, pound: pound)
+                    let candy = Candy(id: id, type: type, pound: pound)
                     self.Candies.append(candy)
                 }
             }
