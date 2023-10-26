@@ -20,9 +20,6 @@
 		4865389A2AD1D9C4006A3CA7 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486538992AD1D9C4006A3CA7 /* Firebase.swift */; };
 		4865389C2AD1D9F6006A3CA7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865389B2AD1D9F6006A3CA7 /* DataManager.swift */; };
 		4865389E2AD1DA25006A3CA7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865389D2AD1DA25006A3CA7 /* ListView.swift */; };
-		486538A12AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486538A02AD1E24A006A3CA7 /* GoogleService-Info-2.plist */; };
-		486538A22AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486538A02AD1E24A006A3CA7 /* GoogleService-Info-2.plist */; };
-		486538A32AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486538A02AD1E24A006A3CA7 /* GoogleService-Info-2.plist */; };
 		486538A52AD1E281006A3CA7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A42AD1E281006A3CA7 /* FirebaseAnalytics */; };
 		486538A72AD1E281006A3CA7 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A62AD1E281006A3CA7 /* FirebaseAnalyticsOnDeviceConversion */; };
 		486538A92AD1E281006A3CA7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A82AD1E281006A3CA7 /* FirebaseAnalyticsSwift */; };
@@ -38,6 +35,9 @@
 		486538BD2AD1E45C006A3CA7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 486538BC2AD1E45C006A3CA7 /* FirebaseAnalyticsSwift */; };
 		486538BF2AD1E45C006A3CA7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 486538BE2AD1E45C006A3CA7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		486538C12AD1E45C006A3CA7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 486538C02AD1E45C006A3CA7 /* FirebaseAppCheck */; };
+		48A31C882AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
+		48A31C892AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
+		48A31C8A2AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 		486538992AD1D9C4006A3CA7 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		4865389B2AD1D9F6006A3CA7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4865389D2AD1DA25006A3CA7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		486538A02AD1E24A006A3CA7 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +158,7 @@
 				4865386D2AD1D77D006A3CA7 /* Main.storyboard */,
 				486538702AD1D77E006A3CA7 /* Assets.xcassets */,
 				486538722AD1D77E006A3CA7 /* LaunchScreen.storyboard */,
-				486538A02AD1E24A006A3CA7 /* GoogleService-Info-2.plist */,
+				48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */,
 				486538752AD1D77E006A3CA7 /* Info.plist */,
 			);
 			path = "Candied OG";
@@ -293,6 +293,7 @@
 			mainGroup = 4865385B2AD1D77D006A3CA7;
 			packageReferences = (
 				4865389F2AD1E0C9006A3CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				48CAB2542AE9F0F70079C0B9 /* XCRemoteSwiftPackageReference "cocoapods-generate" */,
 			);
 			productRefGroup = 486538652AD1D77D006A3CA7 /* Products */;
 			projectDirPath = "";
@@ -312,8 +313,8 @@
 			files = (
 				486538742AD1D77E006A3CA7 /* LaunchScreen.storyboard in Resources */,
 				486538712AD1D77E006A3CA7 /* Assets.xcassets in Resources */,
-				486538A12AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */,
 				4865386F2AD1D77D006A3CA7 /* Main.storyboard in Resources */,
+				48A31C882AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486538A22AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */,
+				48A31C892AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486538A32AD1E24A006A3CA7 /* GoogleService-Info-2.plist in Resources */,
+				48A31C8A2AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +701,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.16.0;
+			};
+		};
+		48CAB2542AE9F0F70079C0B9 /* XCRemoteSwiftPackageReference "cocoapods-generate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/square/cocoapods-generate.git";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
