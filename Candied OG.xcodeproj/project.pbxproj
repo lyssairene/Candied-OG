@@ -22,7 +22,7 @@
 		4865389E2AD1DA25006A3CA7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865389D2AD1DA25006A3CA7 /* ListView.swift */; };
 		486538A52AD1E281006A3CA7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A42AD1E281006A3CA7 /* FirebaseAnalytics */; };
 		486538A72AD1E281006A3CA7 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A62AD1E281006A3CA7 /* FirebaseAnalyticsOnDeviceConversion */; };
-		486538A92AD1E281006A3CA7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A82AD1E281006A3CA7 /* FirebaseAnalyticsSwift */; };
+		486538A92AD1E281006A3CA7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 486538A82AD1E281006A3CA7 /* FirebaseAnalyticsSwift */; settings = {ATTRIBUTES = (Required, ); }; };
 		486538AB2AD1E281006A3CA7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 486538AA2AD1E281006A3CA7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		486538AD2AD1E281006A3CA7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 486538AC2AD1E281006A3CA7 /* FirebaseAppCheck */; };
 		486538AF2AD1E42D006A3CA7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 486538AE2AD1E42D006A3CA7 /* FirebaseAnalytics */; };
@@ -700,7 +700,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.16.0;
+				minimumVersion = 10.0.0;
 			};
 		};
 		48CAB2542AE9F0F70079C0B9 /* XCRemoteSwiftPackageReference "cocoapods-generate" */ = {
