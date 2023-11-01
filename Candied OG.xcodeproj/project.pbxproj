@@ -38,6 +38,7 @@
 		48A31C882AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
 		48A31C892AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
 		48A31C8A2AE9C90D00C3BCBD /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */; };
+		48C37C422AF06C1500940DBF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C37C412AF06C1500940DBF /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		4865389B2AD1D9F6006A3CA7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4865389D2AD1DA25006A3CA7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		48A31C872AE9C90D00C3BCBD /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-3.plist"; path = "../../../../Downloads/GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		48C37C412AF06C1500940DBF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		4865385B2AD1D77D006A3CA7 = {
 			isa = PBXGroup;
 			children = (
+				48C37C412AF06C1500940DBF /* Package.swift */,
 				486538662AD1D77D006A3CA7 /* Candied OG */,
 				4865387D2AD1D77F006A3CA7 /* Candied OGTests */,
 				486538872AD1D77F006A3CA7 /* Candied OGUITests */,
@@ -344,6 +347,7 @@
 				4865386C2AD1D77D006A3CA7 /* ViewController.swift in Sources */,
 				4865389C2AD1D9F6006A3CA7 /* DataManager.swift in Sources */,
 				4865389E2AD1DA25006A3CA7 /* ListView.swift in Sources */,
+				48C37C422AF06C1500940DBF /* Package.swift in Sources */,
 				486538682AD1D77D006A3CA7 /* AppDelegate.swift in Sources */,
 				4865389A2AD1D9C4006A3CA7 /* Firebase.swift in Sources */,
 				4865386A2AD1D77D006A3CA7 /* SceneDelegate.swift in Sources */,
@@ -536,6 +540,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,6 +569,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
